@@ -1,2 +1,2 @@
-# Michael-Anticoli-Digital-Marketing-Profile-8974
+# Michael-Anticoli-Digital-Marketing
 Repository created by Greta
