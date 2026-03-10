@@ -1,11 +1,8 @@
 /* # Strategic Resume Data
-1. Updated Project Schema
-   - Added Lumen Fellowship (Faith-based Non-profit)
-   - Maintained all existing case studies (Buchanan's, Tía, MoonTuner, Happy Peach, Quantumelodic)
-   - Retained Ikigai as Featured Product
-2. Metrics for Lumen
-   - Focused on "Visitor Retention" as the core conversion (CVR)
-   - Mapped qualitative "Quiet Radiance" success to performance signals
+1. Expanded Skills Section
+   - Added "Creative & Content" and "Emerging Tech & AI" categories to fill the 4-column layout.
+   - Refined existing skill descriptions for better professional impact.
+2. Maintained all existing case studies and personal info.
 */
 
 export const resumeData = {
@@ -184,13 +181,31 @@ export const resumeData = {
       ]
     },
     {
+      category: "Creative & Content",
+      items: [
+        { name: "Multi-Sensory Branding", description: "Visual, sonic, and tactile identity systems" },
+        { name: "Narrative Design", description: "Crafting immersive stories that drive brand affinity" },
+        { name: "Motion Graphics", description: "High-impact visual communication for social and digital" },
+        { name: "Creative Art Direction", description: "Orchestrating visual metaphors across luxury and lifestyle" }
+      ]
+    },
+    {
       category: "Platforms & Tools",
       items: [
         "Google Analytics 4 & Data Studio",
         "Meta Ads & TikTok Business Suite",
         "Klaviyo & CRM Integration",
         "Figma & Adobe Creative Cloud",
-        "AI Workflow Automation Tools"
+        "Shopify & E-commerce Strategy"
+      ]
+    },
+    {
+      category: "Emerging Tech & AI",
+      items: [
+        { name: "AI Workflow Design", description: "Automating content and strategy with LLMs and Generative AI" },
+        { name: "Prompt Engineering", description: "Customizing AI outputs for high-fidelity marketing assets" },
+        { name: "Synesthetic Systems", description: "Integrating haptics and sonic branding into digital UX" },
+        { name: "Data Visualization", description: "Turning complex datasets into actionable visual insights" }
       ]
     }
   ]
