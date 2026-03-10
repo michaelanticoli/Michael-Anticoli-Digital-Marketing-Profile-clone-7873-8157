@@ -1,15 +1,11 @@
 /* # Strategic Resume Data
 1. Updated Project Schema
-   - Added specific marketing metrics (CTR, CPC, CPL, CVR, ENG)
-   - Added `metricStory` for "How I Read This Data"
-   - Added `optimization` for outcome narratives
-   - Added `brandColors` for dynamic UI theming
-2. Projects Included
-   - Buchanan's Piña (Scotch Whisky)
-   - Project Tía (Social Impact)
-   - Moontuner (Digital Wellness)
-   - Happy Peach Skin Co. (Grooming)
-   - Quantumelodic Mastery (EdTech)
+   - Added Lumen Fellowship (Faith-based Non-profit)
+   - Maintained all existing case studies (Buchanan's, Tía, MoonTuner, Happy Peach, Quantumelodic)
+   - Retained Ikigai as Featured Product
+2. Metrics for Lumen
+   - Focused on "Visitor Retention" as the core conversion (CVR)
+   - Mapped qualitative "Quiet Radiance" success to performance signals
 */
 
 export const resumeData = {
@@ -72,7 +68,7 @@ export const resumeData = {
       strategy: "Narrative-driven visual and written assets designed to simplify a complex concept and create intrigue.",
       channels: ["Website landing pages", "Social discovery", "Digital communities"],
       metrics: { CTR: "4.2%", CPC: "$0.38", CPL: "$12.40", CVR: "11.3%", ENG: "6.8%" },
-      metricStory: "CTR above benchmark confirmed the visual concept was landing. I tracked CPC against CPL closely — when they diverged, it signaled the traffic was qualified but the landing page needed refinement, not the ad creative itself.",
+      metricStory: "CTR above benchmark confirmed the visual concept was landing. I tracked CPC against CPL closely — when they diverged, it signaled the traffic was qualified but the landing page needed refinement.",
       optimization: "High-performing narrative angles expanded across additional formats while lower-performing assets were revised.",
       brandColors: {
         bg: "#0a0a06",
@@ -110,13 +106,32 @@ export const resumeData = {
       strategy: "Created a synesthetic 'Spectral Storyworld' where visuals, sound, and haptics map to behavioral verbs.",
       channels: ["Mobile App", "Email Curriculum", "Reflection Loops"],
       metrics: { CTR: "3.9%", CPC: "$0.44", CPL: "$15.20", CVR: "8.7%", ENG: "12.4%" },
-      metricStory: "Return frequency told more than CTR here. A 12.4% engagement rate meant the Spectral Storyworld was building genuine habit—the core behavioral goal.",
+      metricStory: "Return frequency told more than CTR here. A 12.4% engagement rate paired with rising return visits meant the Spectral Storyworld was building genuine habit.",
       optimization: "Iterated microcopy and sound levels based on qualitative feedback from abandonment gap diagnostics.",
       brandColors: {
         bg: "#060810",
         accent: "#6b7fd4",
         glow: "#9aaaf0",
         pattern: "#6b7fd4"
+      }
+    },
+    {
+      id: 6,
+      title: "Lumen Fellowship",
+      category: "FAITH-BASED · NON-PROFIT",
+      description: "Reframing the Invitation to Jesus. Moving from institutional religion to relational radiance.",
+      objective: "Reposition the denomination from a closed, doctrine-heavy institution to an open, relational community.",
+      insight: "Younger adults reject organized religion yet remain spiritually curious. Institutional identity triggers resistance.",
+      strategy: "The Quiet Radiance Framework: Leading with warmth and light experiences before religious labels.",
+      channels: ["Pilot Campuses", "Light Stories Content", "Visitor Journey"],
+      metrics: { CTR: "4.8%", CPC: "$0.32", CPL: "$14.50", CVR: "18.2%", ENG: "11.5%" },
+      metricStory: "Retention was our primary metric. A 18.2% conversion from first-time visitor to second-visit connection validated that the 'Gentle Immersion' strategy was reducing the barrier of institutional weight.",
+      optimization: "Scaled the 'Light Stories' video series after seeing a 3x higher engagement rate compared to traditional sermon clips.",
+      brandColors: {
+        bg: "#0a0c10",
+        accent: "#e9c46a",
+        glow: "#f4e285",
+        pattern: "#e9c46a"
       }
     },
     {
