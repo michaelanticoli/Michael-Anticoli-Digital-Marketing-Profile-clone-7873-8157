@@ -23,7 +23,7 @@ export const resumeData = {
     location: "Los Angeles, CA, USA",
     summary: "Strategic marketer focused on digital storytelling, audience positioning, and campaign systems across web platforms and emerging AI tools.",
     linkedin: "https://www.linkedin.com/in/michael-anticoli/",
-    portfolio: "https://michaelanticoli.com/michaelchemy",
+    portfolio: "https://michael-anticoli.lovable.app",
     resumeUrl: "https://media-manager-c.questera.ai/greta-media/23217cf5c3f144814b57e649be11bd1bc25de06192ee36f462debaf27b785876208945591af55e850adffcdaf997019c/documents/YXBwbGljYXRpb24vcGRm/be1e0fb7f36f7ed6c4b105191f9d5b84.pdf" 
   },
   details: [
