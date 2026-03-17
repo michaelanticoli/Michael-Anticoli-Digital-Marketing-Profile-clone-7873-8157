@@ -18,7 +18,7 @@ const resumeData = {
     tagline: "The modern-day multi-hyphenate: pick a title, blend a role, build the future.",
     email: "michael@example.com",
     linkedin: "https://linkedin.com/in/michaelanticoli",
-    resumeUrl: "/resume.pdf"
+    resumeUrl: "https://media-manager-c.questera.ai/greta-media/23217cf5c3f144814b57e649be11bd1bc25de06192ee36f462debaf27b785876208945591af55e850adffcdaf997019c/documents/YXBwbGljYXRpb24vcGRm/be1e0fb7f36f7ed6c4b105191f9d5b84.pdf"
   },
   projects: [
     {

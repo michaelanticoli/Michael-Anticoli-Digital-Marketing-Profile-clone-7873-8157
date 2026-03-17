@@ -80,7 +80,6 @@ function Hero({ data }) {
             </motion.a>
             <motion.a 
               href={data.resumeUrl}
-              download="MichaelAnticoliResume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -2 }}

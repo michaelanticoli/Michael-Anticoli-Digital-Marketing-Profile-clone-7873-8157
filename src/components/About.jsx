@@ -48,8 +48,7 @@ function About({ summary, details, stats }) {
             </div>
 
             <motion.a 
-              href={resumeData.personal.resumeUrl} 
-              download="MichaelAnticoliResume.pdf"
+              href={resumeData.personal.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ x: 5 }}
