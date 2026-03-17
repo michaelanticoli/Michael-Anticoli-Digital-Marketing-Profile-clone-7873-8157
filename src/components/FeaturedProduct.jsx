@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import SafeIcon from '../common/SafeIcon';
 
-const { FiExternalLink, FiCpu, FiArrowRight } = FiIcons;
+const { FiExternalLink, FiCpu } = FiIcons;
 
 function FeaturedProduct({ product }) {
   if (!product) return null;
@@ -23,8 +23,11 @@ function FeaturedProduct({ product }) {
             className="flex-1 w-full"
           >
             <div className="relative aspect-square max-w-xl mx-auto">
+              {/* Decorative shapes */}
               <div className="absolute inset-0 bg-brand-accent/10 rounded-[4rem] rotate-3 -z-10" />
               <div className="absolute inset-0 border border-brand-border rounded-[4rem] -rotate-3 -z-10" />
+              
+              {/* Card Content */}
               <div className="w-full h-full bg-brand-secondary border border-brand-border rounded-[4rem] p-12 flex flex-col items-center justify-center text-center group">
                 <div className="w-32 h-32 bg-brand-accent/10 rounded-full flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
                   <SafeIcon icon={FiCpu} className="text-5xl text-brand-accent" />
@@ -32,8 +35,8 @@ function FeaturedProduct({ product }) {
                 <h3 className="text-4xl md:text-5xl font-black text-brand-text font-custom uppercase tracking-tighter mb-4">
                   {product.title}
                 </h3>
-                <p className="text-brand-accent font-bold uppercase tracking-widest text-xs mb-8">
-                  {product.category}
+                <p className="text-brand-accent font-bold uppercase tracking-widest text-[10px] mb-8">
+                  {product.subtitle || "Flagship Innovation"}
                 </p>
                 <div className="flex flex-wrap justify-center gap-3">
                   {product.metrics.map((m, i) => (
@@ -64,16 +67,12 @@ function FeaturedProduct({ product }) {
               <p className="text-xl text-brand-muted leading-relaxed font-light">
                 {product.description}
               </p>
-              <p className="text-brand-text/70 leading-relaxed italic border-l-2 border-brand-accent pl-6 py-2">
-                "{product.details}"
-              </p>
+              {/* Removed the empty quotation marks block from here */}
             </div>
 
             <div className="pt-6">
               <a 
-                href={product.link}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={product.link || "#"}
                 className="inline-flex items-center gap-4 group"
               >
                 <span className="h-16 px-10 bg-brand-text text-brand-bg rounded-full flex items-center justify-center font-black uppercase tracking-widest text-xs group-hover:bg-brand-accent group-hover:text-white transition-all">
