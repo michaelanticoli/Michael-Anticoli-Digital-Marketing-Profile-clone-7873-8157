@@ -125,7 +125,7 @@ const navLinks = [
                 <a href={resumeData.personal.linkedin} className="text-brand-text hover:text-brand-accent transition-colors">
                   <SafeIcon icon={FiLinkedin} className="text-2xl" />
                 </a>
-                <a href={`mailto:${resumeData.personal.email}`} className="text-brand-text hover:text-brand-accent transition-colors">
+                <a href="https://michaelanticoli.com#contact" className="text-brand-text hover:text-brand-accent transition-colors">
                   <SafeIcon icon={FiMail} className="text-2xl" />
                 </a>
               </div>
