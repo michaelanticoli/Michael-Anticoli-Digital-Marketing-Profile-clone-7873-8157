@@ -24,13 +24,13 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
-    { name: 'Approach', href: '#about' },
-    { name: 'Featured', href: '#featured' },
-    { name: 'Works', href: '#projects' },
-    { name: 'Identity', href: '#identity' },
-    { name: 'Toolkit', href: '#skills' },
-  ];
+const navLinks = [
+  { name: 'Home', href: 'https://michaelanticoli.com' },
+  { name: 'Featured', href: '#featured' },
+  { name: 'Works', href: '#projects' },
+  { name: 'Audio', href: 'https://audio.michaelanticoli.com' },
+  { name: 'About', href: '#about' },
+];
 
   return (
     <div className="min-h-screen bg-brand-bg text-brand-text selection:bg-brand-accent selection:text-brand-bg font-sans overflow-x-hidden">
