@@ -24,13 +24,13 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-const navLinks = [
-  { name: 'Home', href: 'https://michaelanticoli.com' },
-  { name: 'Featured', href: '#featured' },
-  { name: 'Works', href: '#projects' },
-  { name: 'Audio', href: 'https://audio.michaelanticoli.com' },
-  { name: 'About', href: '#about' },
-];
+  const navLinks = [
+    { name: 'Approach', href: '#about' },
+    { name: 'Featured', href: '#featured' },
+    { name: 'Works', href: '#projects' },
+    { name: 'Identity', href: '#identity' },
+    { name: 'Toolkit', href: '#skills' },
+  ];
 
   return (
     <div className="min-h-screen bg-brand-bg text-brand-text selection:bg-brand-accent selection:text-brand-bg font-sans overflow-x-hidden">
@@ -125,7 +125,7 @@ const navLinks = [
                 <a href={resumeData.personal.linkedin} className="text-brand-text hover:text-brand-accent transition-colors">
                   <SafeIcon icon={FiLinkedin} className="text-2xl" />
                 </a>
-                <a href="https://michaelanticoli.com#contact" className="text-brand-text hover:text-brand-accent transition-colors">
+                <a href={`mailto:${resumeData.personal.email}`} className="text-brand-text hover:text-brand-accent transition-colors">
                   <SafeIcon icon={FiMail} className="text-2xl" />
                 </a>
               </div>

@@ -16,8 +16,8 @@ const resumeData = {
     ],
     summary: "A creative strategist and digital polymath operating at the intersection of storytelling, AI, and brand evolution. I don't just bridge gaps; I build the architecture for what comes next.",
     tagline: "The modern-day multi-hyphenate: pick a title, blend a role, build the future.",
-    email: "michaelanticoli@gmail.com",
-    linkedin: "https://linkedin.com/in/michael-anticoli",
+    email: "michael@example.com",
+    linkedin: "https://linkedin.com/in/michaelanticoli",
     resumeUrl: "https://media-manager-c.questera.ai/greta-media/23217cf5c3f144814b57e649be11bd1bc25de06192ee36f462debaf27b785876208945591af55e850adffcdaf997019c/documents/YXBwbGljYXRpb24vcGRm/be1e0fb7f36f7ed6c4b105191f9d5b84.pdf"
   },
   projects: [
